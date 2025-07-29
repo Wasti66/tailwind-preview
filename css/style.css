@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Syne", sans-serif;
+}
+p, a{
+    font-family: "Poppins", sans-serif;
+}
+/* Homes banar */
+.logo {
+    font-family: "Krona One", sans-serif;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+#banar h1, h2{
+    font-weight: 700;
+    line-height: 100%;
+    color: white;
+}
+#banar img {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.24));
+}
+#flim .flim-makers{
+    font-weight: 670;
+}

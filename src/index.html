@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Tailwind Project</title>
+       <link href="./output.css" rel="stylesheet">
+       <!-- style css -->
+       <link rel="stylesheet" href="../css/style.css">
+       <!-- font Syne-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+       <!-- font poppins -->  
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+       <!-- font Krona One -->  
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="shadow-md">
+            <nav class="px-6 py-4 flex items-center justify-between relative">
+                <!-- logo -->
+                <div>
+                    <h4 class="fw-normal text-[18px] text-black logo">ABRAMORAMA</h4>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="lg:hidden">
+                    <div id="menu-toggle" class="text-black focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- menu items -->
+                <ul id="menu" class="lg:flex hidden flex-col lg:flex-row items-start lg:items-center space-y-4 lg:space-y-0 lg:space-x-6 absolute lg:static top-full left-0 w-full lg:w-auto bg-white lg:bg-transparent px-6 py-4 lg:p-0 z-10 shadow lg:shadow-none">
+
+                    <!-- nav links -->
+                    <li><a href="#home" class="text-[15px] text-black">Home</a></li>
+                    <li><a href="#films" class="text-[15px] text-black">Films</a></li>
+                    <li><a href="#marketing-services" class="text-[15px] text-black">Marketing Services</a></li>
+                    <li><a href="#get-involved" class="text-[15px] text-black">Get Involved</a></li>
+                    <li><a href="#about-us" class="text-[15px] text-black">About Us</a></li>
+
+                    <!-- social icons -->
+                    <li><a href="#"><img src="../images/Twitter.png" class="w-[19.83px] h-[20px]" alt=""></a></li>
+                    <li><a href="#"><img src="../images/Facebook.png" class="w-[19.83px] h-[20px]" alt=""></a></li>
+                    <li><a href="#"><img src="../images/Instagram.png" class="w-[19.83px] h-[20px]" alt=""></a></li>
+
+                    <!-- button -->
+                    <li>
+                        <a href="#" class="bg-black text-white px-4 py-2 fw-semibold text-[13px] leading-[100%] rounded-full">Schedule a Call</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- main -->
+         <main>
+            <!-- (Homes banar) -->
+             <section id="banar" class="bg-[url('../images/home-banar.png')] lg:h-[1045px] bg-no-repeat bg-cover relative lg:-left-[7px] bg-center">
+                <div class="lg:container mx-auto lg:px-0 lg:py-0 px-4 py-4">
+                    <!-- images -->
+                    <img src="../images/abr.png" class="w-75 md:w-100 m-auto pt-12 md:pt-16 pb-32 md:pb-48" alt="">
+                    <div class="text-center md:mt-[40px] lg:mt-60 pb-16 sm:pb-24">
+                        <h1 class="text-[25px] sm:text-[40px] md:text-[50px] lg:text-[80px] tracking-[4%]">FILMS WORTH WATCHING</h1>
+                        <h2 class="text-[20px] sm:text-[30px] md:text-[45px] lg:text-[65px] tracking-[6%]">STORIES WORTH FIGHTING FOR</h2>
+                    </div>
+                    <!-- -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-6">
+                    <!-- Left Spacer -->
+                        <div class="hidden lg:block lg:col-span-2"></div>
+
+                        <!-- First Box -->
+                        <div class="text-center col-span-1 sm:col-span-1 lg:col-span-4">
+                            <img src="../images/Group 18.png" class="w-[60px] h-[60px] sm:w-[100px] sm:h-[100px] md:w-[135px] sm:h-[138px] mb-4 mx-auto" alt="Film Audience">
+                            <p class="font-medium text-white text-sm sm:text-xl tracking-wide leading-snug">
+                            WHERE AUDIENCES<br>FIND THEIR FILMS.
+                            </p>
+                        </div>
+
+                        <!-- Second Box -->
+                        <div class="text-center col-span-1 sm:col-span-1 lg:col-span-4">
+                            <img src="../images/Group 19.png" class="w-[60px] h-[60px] sm:w-[100px] sm:h-[100px] md:w-[135px] sm:h-[138px] mb-4 mx-auto" alt="Film Audience">
+                            <p class="font-medium text-white text-sm sm:text-xl tracking-wide leading-snug">
+                            WHERE FILMS FIND<br>THEIR AUDIENCE.
+                            </p>
+                        </div>
+
+                        <!-- Right Spacer -->
+                        <div class="hidden lg:block lg:col-span-2"></div>
+                    </div>
+
+                </div>
+             </section>
+             <!-- FILM MAKERS & FANS  -->
+              <section id="flim" class="pt-12 pb-12">
+                  <div class="lg:container mx-auto px-16">
+                    <h1 class="flim-makers text-[35px] sm:text-[50px] lg:text-[60px] leading-[100%] tracking-[7%] text-center mb-6 md:mb-12">FILM MAKERS & FANS</h1>
+                    <!-- WORK WITH US -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <img src="../images/1 2.png" class="w-full md:w-[443px] md:h-[608px]" alt="">
+                        </div>
+                        <div>
+                            <h1 class="fw-bold text-[30px] md:text-[48px] leading-[100%] tracking-[1%] mb-6 md:mb-12">WORK<br>WITH US</h1>
+                            <div class="flex">
+                               <img src="../images/Line 13.png" class="me-3" alt="">
+                               <div>
+                                 <p class="font-normal text-[20px] md:text-[24px] leading-[100%] tracking-[1%] mt-6 mb-10">Your story deserves more<br>than just a release date.<br>We help you find your <br>audience.</p> 
+                                <h1 class="fw-bold text-[20px] md:text-[32px] leading-[100%] tracking-[1%] mb-2 underline underline-offset-8">Service Highlights</h1> 
+                                <p class="font-normal text-[20px] md:text-[24px] leading-[150%] md:leading-[200%] tracking-[1%]">Your story deserves more<br>than just a release date.<br>We help you find your <br>audience.</p>
+                               </div>   
+                            </div>
+                        </div>
+                    </div>
+                    <!-- custom hr -->
+                    <img src="../images/Group 10.png" class="w-[646px] h-[5px] m-auto my-16 md:my-20" alt="">
+                    <!-- NOW PLAYING -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <h1 class="fw-bold text-[30px] md:text-[48px] leading-[100%] tracking-[1%] mb-6 md:mb-12">NOW<br>PLAYING</h1>
+                            <div class="flex">
+                               <img src="../images/Line 13.png" class="me-3" alt="">
+                               <div>
+                                 <p class="font-normal text-[20px] md:text-[24px] leading-[100%] tracking-[1%] mt-6 mb-10">New releases and upcoming<br>events you don’t want to<br>miss.</p> 
+                                <h1 class="fw-bold text-[20px] md:text-[32px] leading-[100%] tracking-[1%] mb-2 underline underline-offset-8">Featured Films</h1> 
+                                <p class="font-normal text-[20px] md:text-[24px] leading-[150%] md:leading-[200%] tracking-[1%]">Watch Trailer<br>Get Tickets<br>Watch Trailer</p>
+                               </div>   
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../images/Untitled design 1.png" class="w-full md:w-[460px] md:h-[632px]" alt="">
+                        </div>
+                    </div>  
+                  </div>  
+              </section>
+         </main>
+         <!-- footer -->
+        <footer>
+
+        </footer>
+        <!-- JavaScript for toggle menu -->
+        <script>
+            const toggleBtn = document.getElementById('menu-toggle');
+            const menu = document.getElementById('menu');
+
+            toggleBtn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+            });
+        </script>
+    </body>
+</html>
